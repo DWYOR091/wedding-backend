@@ -6,9 +6,9 @@ https://docs.nestjs.com/modules
 import { Global, Module } from '@nestjs/common';
 @Global()
 @Module({
-    imports: [],
-    controllers: [],
-    providers: [...databaseProviders],
-    exports: [...databaseProviders],
+  imports: [],
+  controllers: [],
+  providers: [...databaseProviders],
+  exports: [...databaseProviders],
 })
-export class DatabaseModule { }
+export class DatabaseModule {}
